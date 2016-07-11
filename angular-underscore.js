@@ -154,4 +154,7 @@
 
   // end register angular-underscore/filters
 
-}(angular, _));
+}(require('angular'), require('underscore')));
+
+module.exports = exports = 'angular-underscore';
+
